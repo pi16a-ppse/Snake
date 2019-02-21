@@ -22,6 +22,8 @@ namespace SnakeGame
 		public static int Score {get;set;}
 		public static int Points {get;set;}
 		public static int Width {get;set;}
+		public static bool GameOver {get;set;}
+		
 		
 	}
 	
