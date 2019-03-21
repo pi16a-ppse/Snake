@@ -14,11 +14,18 @@ namespace WindowsFormsApp1
 
         public static bool KeyPress(Keys key)
         {
-            if (keyTable[key]== null)
+            if (keyTable[key] == null)
             {
                 return false;
             }
 
             return (bool)keyTable[key];
         }
+
+        public static void changeState (Keys key, bool state) // ФУНКЦИЯ ПРОВЕРКИ НАЖАТИЯ КЛАВИШ
+        {
+            keyTable[key] = state;
+        }
+
+    }
 }
