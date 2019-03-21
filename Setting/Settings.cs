@@ -21,6 +21,7 @@ namespace WindowsFormsApp1
 
 
         public Settings() {
+
             Widht = 17;
             Height = 17;
             Speed = 15;
@@ -29,6 +30,7 @@ namespace WindowsFormsApp1
             EndGame = false;
             direction = Directions.Down;
                  
+
         }   
     }
 
