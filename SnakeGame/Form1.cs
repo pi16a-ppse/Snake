@@ -12,6 +12,8 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        private List<Circle> Snake = new List<Circle>();  //создание списка circle для  змейки
+        private Circle food = new Circle(); // создание подкласса circle еда
         public Form1()
         {
             InitializeComponent();
