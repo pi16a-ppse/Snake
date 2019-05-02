@@ -22,14 +22,15 @@ namespace WindowsFormsApp1
 
         public Settings() {
 
-            Widht = 17;
-            Height = 17;
-            Speed = 15;
-            Score = 0;
-            Point = 70;
+            Widht = 56;
+            Height = 35;
+            Speed = 45;
+            Score = 133;
+            Point = 80;
             EndGame = false;
             direction = Directions.Down;
-                 
+      
+
 
         }   
     }
